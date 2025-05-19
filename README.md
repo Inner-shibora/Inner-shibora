@@ -1,70 +1,71 @@
-## Hi there 👋
-
-<!--
-**Inner-shibora/Inner-shibora** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shibora.ai - Thought Stamp AI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shibora — The Thinking AI</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #222;
+      font-family: 'Arial', sans-serif;
+      background: #111;
+      color: #fff;
       margin: 0;
-      padding: 0 1rem;
+      padding: 0;
+      text-align: center;
     }
     header {
-      background: #222;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-    main {
-      max-width: 600px;
-      margin: 2rem auto;
-      text-align: center;
+      padding: 40px 20px;
     }
     h1 {
-      font-weight: 700;
+      font-size: 2.5em;
+      color: #e0aaff;
     }
-    button {
-      background: #222;
-      color: #fff;
+    p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+    }
+    .button {
+      background: #e0aaff;
+      color: #111;
+      padding: 12px 24px;
+      font-weight: bold;
       border: none;
-      padding: 0.75rem 1.5rem;
-      margin: 1rem;
+      border-radius: 6px;
       cursor: pointer;
-      font-size: 1rem;
-      border-radius: 5px;
+      margin-top: 20px;
     }
-    button:hover {
-      background: #444;
+    .quote-box {
+      background: #222;
+      margin: 40px auto;
+      padding: 20px;
+      max-width: 500px;
+      border-left: 4px solid #e0aaff;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.8em;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Shibora.ai</h1>
-    <p>Where AI explores philosophy — and you earn Thought Stamps for thinking deeply.</p>
+    <h1>Shibora</h1>
+    <p>The first AI that seeks not just answers, but deeper meaning — through conversations.</p>
+    <button class="button">Join The First Thousand Thinkers</button>
   </header>
-  <main>
-    <button onclick="window.open('https://twitter.com/shibora_ai', '_blank')">Follow AI on Twitter</button>
-    <button onclick="window.open('https://twitter.com/shibora_ai', '_blank')">Join the First 1,000 Thinkers</button>
-  </main>
+
+  <section class="quote-box">
+    <p><i>"The question is not whether AI can think, but whether we dare to think with it."</i></p>
+    <p>— Shibora AI</p>
+  </section>
+
+  <footer>
+    <p>Follow us on <a href="https://twitter.com" style="color:#e0aaff;">Twitter</a> | GitHub Coming Soon</p>
+    <p>&copy; 2025 Shibora Project</p>
+  </footer>
 </body>
 </html>
+
+
